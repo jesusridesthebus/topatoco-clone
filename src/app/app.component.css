@@ -1,25 +1,28 @@
-.icons {
-  height: 20px;
-  fill: #444444; /* not working */
+.media-icons {
+  height: 15px;
+  padding: 5px;
 }
 
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+.center-icons {
+  height: 15px;
+  padding: 5px;
 }
-h2, h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+
+#topatoco-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-body {
-  margin: 2em;
+
+#social-media-icons {
+  margin-left: 50px;
 }
-body, input[type="text"], button {
-  color: #333;
-  font-family: Cambria, Georgia;
+
+#center-nav-icons {
+  text-align: right;
+
 }
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
