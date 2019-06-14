@@ -15,12 +15,11 @@
 }
 
 #social-media-icons {
-  margin-left: 50px;
+  align-content: left;
 }
 
 #center-nav-icons {
-  text-align: right;
-
+  align-content: right;
 }
 
 * {
