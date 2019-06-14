@@ -1,5 +1,6 @@
-#instagram {
-  font-size: 2px;
+.icons {
+  width: 20px;
+  fill: #444444; /* not working */
 }
 
 h1 {
