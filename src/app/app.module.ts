@@ -7,6 +7,11 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProductCategoriesComponent } from './product-categories/product-categories.component';
+import { NewExclusiveComponent } from './new-exclusive/new-exclusive.component';
+import { MostPopularComponent } from './most-popular/most-popular.component';
+import { OfficialStuffComponent } from './official-stuff/official-stuff.component';
+import { InstagramsComponent } from './instagrams/instagrams.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -18,7 +23,12 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductCategoriesComponent,
+    NewExclusiveComponent,
+    MostPopularComponent,
+    OfficialStuffComponent,
+    InstagramsComponent
   ],
   imports: [
     BrowserModule,

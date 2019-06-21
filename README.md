@@ -2,7 +2,7 @@
 
 #### 6/14/19, 6/21/19
 
-#### By _**Liz Kelley**_
+#### By **Liz Kelley**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -23,7 +23,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 * _Use Chrome browser_
 * _Clone https://github.com/jesusridesthebus/topatoco-clone from Github_
-* _Run $ npm install in the command line_
+* _Run $ npm install -g @angular/cli@1.6.5 in the command line_
 * _Create an account at https://firebase.google.com/_
 * _On Firebase, create a project called topatoco-clone_
 * _In Firebase, change the rules of the database to_
@@ -35,7 +35,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
   }
 }
 ```
-* _Create a database within in the project_
+* _Create a database within the project_
 * _Create file src/app/api-keys.ts and add the following code, updating API key and other specs to match what the Firebase site shows in the Firebase SDK snippet config._
 ```
 export const masterFirebaseConfig = {
@@ -48,6 +48,11 @@ export const masterFirebaseConfig = {
     appId: XXXX
 };
 ```
+
+## Completed Features
+* _Navigation Bar_
+* _Linked social media icons_
+
 
 ## Known Bugs
 
