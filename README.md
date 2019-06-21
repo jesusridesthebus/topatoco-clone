@@ -1,6 +1,6 @@
 # Topatoco Clone
 
-#### 5/31/19
+#### 6/14/19, 6/21/19
 
 #### By _**Liz Kelley**_
 
@@ -19,12 +19,35 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 
-<!-- ## Setup/Installation Requirements
+## Setup/Installation Requirements
 
 * _Use Chrome browser_
-* _Clone repository from Github_
-* _Run 'npm install' in the command line_
-* _Run 'npm run start'_ -->
+* _Clone https://github.com/jesusridesthebus/topatoco-clone from Github_
+* _Run $ npm install in the command line_
+* _Create an account at https://firebase.google.com/_
+* _On Firebase, create a project called topatoco-clone_
+* _In Firebase, change the rules of the database to_
+```
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+```
+* _Create a database within in the project_
+* _Create file src/app/api-keys.ts and add the following code, updating API key and other specs to match what the Firebase site shows in the Firebase SDK snippet config._
+```
+export const masterFirebaseConfig = {
+    apiKey: XXXX,
+    authDomain: "topatoco-clone.firebaseapp.com",
+    databaseURL: "https://topatoco-clone.firebaseio.com",
+    projectId: "topatoco-clone",
+    storageBucket: "",
+    messagingSenderId: XXXX,
+    appId: XXXX
+};
+```
 
 ## Known Bugs
 
@@ -36,11 +59,14 @@ _123@123.com_
 
 ## Technologies Used
 
-*_Html_
-*_Javascript_
-*_Typescript_
-*_Angular_
-*_CSS_
+* _Html_
+* _Javascript_
+* _Typescript_
+* _Angular_
+* _CSS_
+* _NodeJS_
+* _Karma_
+* _Firebase_
 
 ### License
 
