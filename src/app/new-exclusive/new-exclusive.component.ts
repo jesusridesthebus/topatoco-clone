@@ -1,19 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-// import { NewExclusive } from '../../newexclusive.model';
+import { FirebaseListObservable } from 'angularfire2/database';
+import { NewExclusiveServiceService } from '../new-exclusive-service.service';
 
 @Component({
   selector: 'app-new-exclusive',
   templateUrl: './new-exclusive.component.html',
-  styleUrls: ['./new-exclusive.component.css']
+  styleUrls: ['./new-exclusive.component.css'],
+  providers: [NewExclusiveServiceService]
 })
 
 export class NewExclusiveComponent implements OnInit {
-  // newExclusiveId: string;
-  // newExclusiveToDisplay: NewExclusive;
+  pics: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private newExclusiveServiceService: NewExclusiveServiceService) {
+ }
 
-  ngOnInit() {
-  }
+ ngOnInit() {
+   this.pics = this.newExclusiveServiceService.getPics();
+ }
 
 }

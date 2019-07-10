@@ -1,1 +1,17 @@
-<h1>New and Exclusive Things!</h1>
+<table>
+  <thead>
+    <th><h1>New and Exclusive Things!</h1></th>
+  </thead>
+  <tbody>
+    <tr>
+      <span *ngFor="let pic of pics | async" class="panel panel-default">
+        <td>
+          <img src='../assets/new-exclusive/{{pic.imageLink}}'>
+          <p>{{pic.title}} </p>
+          <h3>{{pic.price}}</h3>
+        </td>
+      </span>
+    </tr>
+
+  </tbody>
+</table>

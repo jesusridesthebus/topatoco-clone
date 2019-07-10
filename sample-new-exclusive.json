@@ -1,0 +1,22 @@
+{ "pics": [{
+    "title": "The Book Was Better CD",
+    "price": "$10.00",
+    "id": "1",
+    "imageLink": "bookwasbetter.jpg"
+    }, {
+    "title": "This Is Fine FOOT SOCKS",
+    "price": "$14.00",
+    "id": "2",
+    "imageLink": "thisisfinesocks.jpg"
+      }, {
+    "title": "Send Nukes Shirts",
+    "price": "$22.00 - $26.00",
+    "id": "3",
+    "imageLink": "sendnukes.jpg"
+      }, {
+    "title": "Many Linneys Print",
+    "price": "$16.00",
+    "id": "4",
+    "imageLink": "linneys.png"
+  }]
+}
